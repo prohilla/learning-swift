@@ -31,3 +31,9 @@ print(iamString)
 print(iamInt)
 print(iamConstantString)
 print(iamSpecifiedString)
+
+// putting numbers inside string
+let undergradGpa = 3.67
+let gradGpa = 3.77
+let sentence = "My undergrad gpa was \(undergradGpa) and grad gpa was \(gradGpa)"
+print(sentence)
